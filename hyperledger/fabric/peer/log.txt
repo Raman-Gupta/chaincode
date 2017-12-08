@@ -1,0 +1,12 @@
+[33m2017-12-02 05:04:07.188 UTC [msp] getMspConfig -> WARN 001[0m Intermediate certs folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/intermediatecerts]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/intermediatecerts: no such file or directory]
+[33m2017-12-02 05:04:07.252 UTC [msp] getMspConfig -> WARN 002[0m TLS intermediate certs folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/tlsintermediatecerts]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/tlsintermediatecerts: no such file or directory]
+[33m2017-12-02 05:04:07.255 UTC [msp] getMspConfig -> WARN 003[0m crls folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/crls]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/crls: no such file or directory]
+2017-12-02 05:04:07.256 UTC [msp] getMspConfig -> INFO 004[0m MSP configuration file not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/config.yaml]: [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/config.yaml: no such file or directory]
+[36m2017-12-02 05:04:07.363 UTC [msp] GetLocalMSP -> DEBU 005[0m Returning existing local MSP
+[36m2017-12-02 05:04:07.363 UTC [msp] GetDefaultSigningIdentity -> DEBU 006[0m Obtaining default signing identity
+2017-12-02 05:04:07.363 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 007[0m Using default escc
+2017-12-02 05:04:07.363 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 008[0m Using default vscc
+[36m2017-12-02 05:04:07.363 UTC [msp/identity] Sign -> DEBU 009[0m Sign: plaintext: 0A95070A6708031A0C08C7E888D10510...6D7963631A0A0A0571756572790A0161 
+[36m2017-12-02 05:04:07.364 UTC [msp/identity] Sign -> DEBU 00a[0m Sign: digest: D379F38648D2BF861C6FB3F39D0BC4FAABBA86ECBB65295D9ED86D651CCBF095 
+Query Result: 90
+2017-12-02 05:04:40.100 UTC [main] main -> INFO 00b[0m Exiting.....
